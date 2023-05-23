@@ -22,8 +22,7 @@ author: Nivedya Nambiar
 navbar-links:
   About Me: "aboutme"
   Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    #- CV:
+    - CV:"https://github.com/nivedya-nambiar/nivedyaweb/blob/master/assets/CV_nivedya.pdf"
     #- Projects:
 
 ################
