@@ -24,4 +24,4 @@ Additive noise degrades the performance of all kinds of speech classifiers, and 
 
 ## Multimodal Neurons in LSMs
 Multimodal neurons in LSMs are expected to combine data from different modalities simultaneously to produce a better informed classification output. This is biologically plausible as the human brain indeed uses inputs from audio, visual and tactile sensors to distinguish and classify objects in the real world. Previously, [Rathi et al](https://ieeexplore.ieee.org/document/8482490) proposed an architecture for multimodal LSMs that includes excitatory connections between neurons in the visual “cortex” and the auditory “cortex”, and these cross-modal connections improved the performance of the LSM. In this project I worked in a team of 3 to model our LSM after this same architecture of cross modal connections between auditory and visual parts of the neuron reservoir for spoken/handwritten digit classification.
-[Report]()
+[Report](https://github.com/nivedya-nambiar/nivedyaweb/blob/master/assets/multimodal/Group2_stage2Report.pdf)
