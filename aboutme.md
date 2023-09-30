@@ -3,7 +3,7 @@ layout: page
 title: About me
 ---
 
-Hi, I'm Nivedya. I enjoy science, music and literature. I recently graduated with a Bachelor's in Electrical Engineering from the Indian Institute of Technology Bombay, where I  was fortunate to  discover the heavenly overlap between engineering principles I learnt in my course and the working of the brain. (I'm still working on improving my literature skills :)) ) 
+Hi, I'm Nivedya. I enjoy science, music and literature. I recently graduated with a Bachelor's in Electrical Engineering from the Indian Institute of Technology Bombay, where I was fortunate to discover opportunities to develop my love for neuroscience as an engineering undergrad.
 <br/>
 I am currently a junior research assistant at the cognition lab at the Indian Institute of Science Bangalore. In a nutshell, my current work involves fMRI data collection and analysis for a simple experiment I designed to decode stimulus properties from the fMRI data. I largely work with MATLAB and Python for my project at the lab, and use simple machine learning and statistical frameworks performing decoding on imaging data.
 <br/>
