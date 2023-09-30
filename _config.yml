@@ -22,8 +22,8 @@ author: Nivedya Nambiar
 navbar-links:
   About Me: "aboutme"
   Resources:
-    - CV:"https://github.com/nivedya-nambiar/nivedyaweb/blob/master/assets/cv_web_version.pdf"
-    - Projects:"projects_page"
+    - CV: "https://github.com/nivedya-nambiar/nivedyaweb/blob/master/assets/cv_web_version.pdf"
+    - Projects: "projects_page"
 
 ################
 # --- Logo --- #
