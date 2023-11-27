@@ -3,8 +3,9 @@ layout: page
 title: Projects
 ---
 # Table of Contents
-1. [Astrocyte Modulated Synaptic Plasticity in LSMs](#Astrocyte Modulated Synaptic Plasticity in LSMs)
-2. [Spiking Neurons for Filtering Noisy Speech](#Spiking Neurons for Filtering Noisy Speech)
+1. [Astrocyte Modulated Synaptic Plasticity in LSMs](##Astrocyte Modulated Synaptic Plasticity in LSMs)
+2. [Spiking Neurons for Filtering Noisy Speech](##Spiking Neurons for Filtering Noisy Speech)
+3. [Multimodal Neurons in LSMs](##Multimodal Neurons in LSMs)
 
 ## Astrocyte Modulated Synaptic Plasticity in LSMs
 Liquid state machines (LSMs) are a type of spking neural network (SNN), consisting of a reservoir of neurons with recurrent connections where communication across "synapses" ensues by means of spikes, quite similar to the biological nervous system. These networks are especially suited for problems involving time-series data like speech classifiation, owing to spike propagation through the reservoir over time and presence of recurrent connections to integrate past and present inputs into the decision making process. Unlike classical neural networks, the synaptic weights of LSMs are not modulated by backpropagation. Instead they could be modulated by spike timing dependent plasticity(STDP), a learning rule seen in biological networks, whereby the synaptic weight is increased inversely as the time taken for the postsynaptic spike after the presynaptic spike. The weight is decreased when postsynaptic neuron spikes before the presynaptic neuron. Several modifications to this rule have been proposed, fueled by better understanding of the working of the brain. Astrocytes have since long been heralded for their housekeeping roles within the nervous system, but their role in regulating synaptic transmission and functional synaptic plasticity has garnered attention in recent years. This serves as inspiration for the astrocyte-modulated synaptic plasticity rule proposed by [Ivanov et al](https://doi.org/10.48550/arXiv.2111.01760).  
