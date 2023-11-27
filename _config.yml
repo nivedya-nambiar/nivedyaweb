@@ -24,6 +24,7 @@ navbar-links:
   Resources:
     - CV: "https://github.com/nivedya-nambiar/nivedyaweb/blob/master/assets/cv_nivedya2.pdf"
     - Projects: "projects_page"
+    - Publications: "publications"
 
 ################
 # --- Logo --- #
