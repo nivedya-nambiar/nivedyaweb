@@ -3,9 +3,64 @@ layout: page
 title: Projects
 ---
 # Table of Contents
-1. [Astrocyte Modulated Synaptic Plasticity in LSMs](##Astrocyte Modulated Synaptic Plasticity in LSMs)
+
+who was involved, time
+focus on project - background, learning in a detailed way
+
+ 
+Corticospinal fMRI: GLM stuff -> gradients -> insular gradients. focus on interpretation challenges, softwares etc
+Logitech - EEG headset validation
+EEG for cognitive overload detection CHUV
+Grating decoding at IISc
+Spiking Neural Networks; astrocyte modulation, Multimodal -> noisy speech
+. [Astrocyte Modulated Synaptic Plasticity in LSMs](##Astrocyte Modulated Synaptic Plasticity in LSMs)
 2. [Spiking Neurons for Filtering Noisy Speech](##Spiking Neurons for Filtering Noisy Speech)
 3. [Multimodal Neurons in LSMs](##Multimodal Neurons in LSMs)
+
+
+## Analysis of Corticospinal fMRI in Multisensory Integration within VR  
+Guide: Ekansh Sareen, Prof. Dimitri Van De Ville, EPFL
+
+This year-long project was carried out at [MIP:Lab](https://miplab.epfl.ch/) under the supervision of Ekansh Sareen, Dr. Francesca Saviola, and Prof. Dimitri Van De Ville. The project focused on analysing corticospinal fMRI data collected during a multisensory integration task in virtual reality. The acquisition used a corticospinal sequence capable of capturing both the brain and cervical spinal cord within a single field of view, following the approach described by [Landelle et al.](https://doi.org/10.1162/imag_a_00284).
+
+Participants experienced varying levels of visuo-tactile illusion while immersed in VR. I also assisted with participant recordings, which gave me hands-on experience with experimental setup and acquisition workflows — from marker placement for motion tracking to monitoring timing consistency, experimental conditions, and overall data quality across sessions. Tiny details become tyrants surprisingly quickly inside an MRI scanner.
+
+### GLM Modelling
+
+As with most fMRI studies, the analysis began with preprocessing: slice-timing correction, separation of cortical and spinal volumes, tissue segmentation, motion correction, physiological denoising, normalization to standard templates (MNI152 for cortex and PAM50 for spine), and smoothing.
+
+We then optimized the GLM design to better capture task-related and low-frequency variation in the data. At the cortical level, we reproduced expected somatosensory activation during congruent visual and tactile stimulation. Spinal effects, however, were weaker and considerably more variable across participants; activation in the expected dorsal horn regions was not consistently observable, likely due to physiological variability and acquisition limitations.
+
+The resulting beta maps identified the right temporo-parietal junction as a key region encoding visuo-tactile mismatch during illusion, consistent with prior [literature](https://doi.org/10.1016/j.plrev.2022.07.001). Spinal findings were evaluated using both parametric statistics and non-parametric [permutation testing](https://web.mit.edu/fsl_v5.0.10/fsl/doc/wiki/Randomise(2f)UserGuide.html), though interpretation remained challenging.
+
+To further investigate cortical dynamics, we performed generalized psychophysiological interaction (gPPI) analyses to examine task-dependent functional connectivity between seed regions and the rest of the brain.
+
+### Corticospinal Gradients
+
+As an extension of the project, we adapted cortical gradient-mapping frameworks such as those introduced by [Margulies et al.](https://doi.org/10.1073/pnas.1608282113) to include corticospinal connectivity — a first application of its kind. Functional gradients describe continuous spatial hierarchies between parcels based on similarity in connectivity patterns.
+
+Using resting-state data, we identified principal and secondary gradients within the combined cortex–spine system that differed from canonical cortical gradient axes. Some selected findings from this work were later presented at ISBI 2026, where Ekansh gave an oral presentation. A follow-up manuscript is currently in preparation.
+
+<br/>
+![Cortical projection of the first 2 cortical and corticospinal gradient axes](https://github.com/nivedya-nambiar/nivedyaweb/blob/master/assets/corticospinal/cs_cortex_projection.png?raw=true "Cortical projection of the first 2 cortical and corticospinal gradient axes")
+<br/>
+
+We observed biologically consistent organization of resting-state spinal connectivity with clear level-dependent structure. Within spinal-level connectivity, the gradients reflected the butterfly-shaped anatomical organization of spinal parcels, as illustrated below.
+
+<br/>
+![The gradients computed for C4-C4 connectivity projected to the spine and visualized on a scatter plot](https://github.com/nivedya-nambiar/nivedyaweb/blob/master/assets/corticospinal/c4_grad_spinal.png?raw=true "The gradients computed for C4-C4 connectivity projected to the spine and visualized on a scatter plot")
+<br/>
+
+One major takeaway from this work was how strongly gradient results depend on the chosen parcellation scheme, and how important it is to align parcellation choices with the underlying hypothesis. For comparisons across connectivity matrices, we relied on Procrustes alignment to consistently align gradient axes.
+
+### Cortico-spino-thalamic Gradients
+
+We then extended the analysis to task-state gradients using a more targeted hypothesis-driven approach. Specifically, we investigated gradient reorganization across the somatosensory cortex, insula, thalamus, and spinal cord.
+
+The insula was of particular interest because of its established role in saliency, interoception, and cognitive control — all highly relevant in an illusion-based paradigm involving manipulated sensory feedback. Participants also frequently reported emotional responses such as frustration when they detected mismatches between visual and tactile stimulation, making the region especially compelling to study.
+
+The first stage of this project focused on insular gradients and how their functional organization changed across different illusion conditions. The report for this work is available [here](https://github.com/nivedya-nambiar/nivedyaweb/blob/master/assets/corticospinal/project_insular_grads_reports.pdf).
+
 
 ## Astrocyte Modulated Synaptic Plasticity in LSMs
 Liquid state machines (LSMs) are a type of spking neural network (SNN), consisting of a reservoir of neurons with recurrent connections where communication across "synapses" ensues by means of spikes, quite similar to the biological nervous system. These networks are especially suited for problems involving time-series data like speech classifiation, owing to spike propagation through the reservoir over time and presence of recurrent connections to integrate past and present inputs into the decision making process. Unlike classical neural networks, the synaptic weights of LSMs are not modulated by backpropagation. Instead they could be modulated by spike timing dependent plasticity(STDP), a learning rule seen in biological networks, whereby the synaptic weight is increased inversely as the time taken for the postsynaptic spike after the presynaptic spike. The weight is decreased when postsynaptic neuron spikes before the presynaptic neuron. Several modifications to this rule have been proposed, fueled by better understanding of the working of the brain. Astrocytes have since long been heralded for their housekeeping roles within the nervous system, but their role in regulating synaptic transmission and functional synaptic plasticity has garnered attention in recent years. This serves as inspiration for the astrocyte-modulated synaptic plasticity rule proposed by [Ivanov et al](https://doi.org/10.48550/arXiv.2111.01760).  
