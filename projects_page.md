@@ -3,11 +3,12 @@ layout: page
 title: Projects
 ---
 # Table of Contents
-1. [Analysis of Corticospinal fMRI in Multisensory Integration within VR](##Analysis of Corticospinal fMRI in Multisensory Integration within VR)
-2. [Validating EEG headset for cognitive load measurement](## Validating EEG headset for cognitive load measurement)
-3. [Preventing Workplace Accidents via Neural Signatures of Cognitive Overload](## Preventing Workplace Accidents via Neural Signatures of Cognitive Overload)
-4. [Decoding orientation of grating stimuli from fMRI data](## Decoding orientation of grating stimuli from fMRI data)
-5. [Modelling biologically feasible classifiers with Liquid State Machines](## Modelling biologically feasible classifiers with Liquid State Machines)
+
+1. [Analysis of Corticospinal fMRI in Multisensory Integration within VR](#analysis-of-corticospinal-fmri-in-multisensory-integration-within-vr)
+2. [Validating EEG Headset for Cognitive Load Measurement](#validating-eeg-headset-for-cognitive-load-measurement)
+3. [Preventing Workplace Accidents via Neural Signatures of Cognitive Overload](#preventing-workplace-accidents-via-neural-signatures-of-cognitive-overload)
+4. [Decoding Orientation of Grating Stimuli from fMRI Data](#decoding-orientation-of-grating-stimuli-from-fmri-data)
+5. [Modelling Biologically Feasible Classifiers with Liquid State Machines](#modelling-biologically-feasible-classifiers-with-liquid-state-machines)
 
 ## Analysis of Corticospinal fMRI in Multisensory Integration within VR  
 This year-long project was carried out at [MIP:Lab](https://miplab.epfl.ch/) under the supervision of Ekansh Sareen, Dr. Francesca Saviola, and Prof. Dimitri Van De Ville. The project focused on analysing corticospinal fMRI data collected during a multisensory integration task in virtual reality. The acquisition used a corticospinal sequence capable of capturing both the brain and cervical spinal cord within a single field of view, following the approach described by [Landelle et al.](https://doi.org/10.1162/imag_a_00284).
