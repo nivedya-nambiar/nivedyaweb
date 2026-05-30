@@ -43,7 +43,7 @@ The insula was of particular interest because of its established role in salienc
 The first stage of this project focused on insular gradients and how their functional organization changed across different illusion conditions. The report for this work is available [here](https://drive.google.com/file/d/1ENhen0YZM7xyM-XAd09dNWbgey-GCIei/view?usp=sharing).
 
 ## Validating EEG headset for cognitive load measurement
-As part of my internship at Logitech's Technology Office, I'm working with their EEG headset prototype to test and validate the capabilities of this dry, low-density system for measuring abstract cognitive states such as overload, fatigue and focus.
+As part of my internship at Logitech's Technology Office, I'm working with their EEG headset prototype to test and validate the capabilities of this dry, low-density system for measuring abstract cognitive states such as overload, fatigue and focus. One aspect of this validation includes comparing against lab-grade EEG alongside commercially available dry EEG headsets.
 
 ## Preventing Workplace Accidents via Neural Signatures of Cognitive Overload
 This project was supervised by Dr. Anna Custo at the [MySpace Lab](https://www.chuv.ch/en/neurosciences/dnc-home/recherche/centre-de-recherche-en-neurosciences/neurotech/research-labs/myspaceneurotech) in CHUV, working in collaboration with Lombardini22. Here, I worked on modelling cognitive overload using neural and physiological signals to investigate whether biomarkers derived from these signals could help detect fatigue and overload in real time to prevent workplace accidents.
@@ -56,7 +56,7 @@ My work focused on three main components:
 2. Performing statistical analyses to verify whether experimentally imposed difficulty levels were reflected in measurable changes in EEG, heart rate, and respiratory signals.
 3. Implementing classification models that used neural and physiological features to predict participants’ cognitive load levels as reflected in their performance scores.
 
-A major part of the project involved carefully validating the modelling pipeline to avoid overinterpreting results given the relatively small dataset size and the noisy, sparse nature of physiological recordings. We also explored participant stratification using self-assessment measures such as frustration and anxiety to better understand inter-subject variability.
+A major part of the project involved validating the modelling pipeline to avoid overinterpreting results given the relatively small dataset size and the noisy, sparse nature of physiological recordings. We also explored participant stratification using self-assessment measures such as frustration and anxiety to better understand inter-subject variability.
 
 ## Decoding orientation of grating stimuli from fMRI data
 This half-year long project aimed at building decoder models to classify the orientation of stimuli presented to subjects in a scanner, and was carried out at the [Cognition Lab](https://cns.iisc.ac.in/sridhar/) at the Indian Institute of Science, under the supervision of Prof. Sridharan Devarajan. I got the chance to plan and implement the full experimental workflow - from experiment design to implementing it with [Psychopy](https://psychopy.org/index.html) and finally recruiting subjects and acquiring task fMRI data to then decode the orientation from.
