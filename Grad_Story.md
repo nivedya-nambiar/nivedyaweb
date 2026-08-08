@@ -3,6 +3,18 @@
 Over the last few years, people reached out to me on LinkedIn asking for different kinds of grad school advice ranging from purely logistical (so what documents exactly did you need) to almost career counseling (which university do I pick?) to borderline existential (but *why* did you do *that*, and what are *your* plans). This blogpost is an attempt to condense all that information to a page approximately clustering different kinds of questions prospective students might have before I forget it👵. In no way exhaustive, and filled with overlaps, this summary is a personal recounting of experience which I suggest you read with a generous seasoning of salt. All this to say, I hope you judge your own circumstances as you do mine when you take any decision after reading this. 🙂‍↕️. 
 
 ## Contents
+1. [A little about me](#a-little-about-me) 
+2. [Grad Application](#grad-application)
+3. [Master's in Neuro-X at EPFL](#masters-in-neuro-x-at-epfl)
+* [Application Logistics](#application-logistics)
+* [Scholarships](#scholarships)
+* [Courses & Projects](#courses--projects)
+4. [Visa Application For Indian Nationals](#visa-application-for-indian-nationals)
+5. [Life In Lausanne, Switzerland](#life-in-lausanne-switzerland)
+* [Housing](#housing)
+* [Insurance](#insurance)
+* [Part-time Jobs](#part-time-jobs)
+* [Language](#language)
 
 ## A little about me
 I'm Nivedya and I'm from a place called Keralam 🌴 in India. I did my Bachelor's (BTech) in Electrical Engineering from IIT Bombay where I developed an interest in neuroscience & psychology and decided to do some courses and projects that 'connected' neuroscience with my EE program - this meant any course that had the word neuroscience/psychology in it, doing my bachelor thesis project in neuromorphic engineering, and watching neuroscience lectures to build more context in neuroscience (like [The Human Brain by Nancy Kanwisher](https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/)). After my degree, I briefly worked as a research assistant at a Cognitive Neuroscience Lab and worked on my grad school application on the side. I attended [Neuromatch Academy's online computational neuroscience summer school](https://compneuro.neuromatch.io/tutorials/intro.html). I eventually had the good fortune of being accepted into [EPFL's Neuro-X Master program](https://www.epfl.ch/education/master/programs/neuro-x/). Thanks to the program's flexibility, I completed courses ranging from neurobiology to computational neuroscience to neuroAI and projects in fMRI/EEG where I got hands-on experience with data analysis and even acquisition.
