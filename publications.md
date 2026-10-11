@@ -3,7 +3,10 @@ layout: page
 title: Publications
 ---
 ## Functional Gradients of the Spinal Cord and Corticospinal System
-Ekansh Sareen, Nivedys Suresh Nambiar, Dimitri Van De Ville, "Functional Gradients of the Spinal Cord and Corticospinal System", 2026 IEEE International Symposium on Biomedical Imaging (ISBI) Oral Presentation
+Ekansh Sareen, Nivedya Suresh Nambiar, Dimitri Van De Ville, "Functional Gradients of the Spinal Cord and Corticospinal System", 2026 IEEE International Symposium on Biomedical Imaging (ISBI) Oral Presentation
+
+## Functional Gradients of the Neuraxis:Reorganization from Cortex to Spinal Cord
+Ekansh Sareen, Nivedya Suresh Nambiar, Boris C. Bernhardt, Dimitri Van De Ville, "Functional Gradients of the Neuraxis:Reorganization from Cortex to Spinal Cord", _preprint_ [full-text link](https://www.researchsquare.com/article/rs-10155262/v1)
 
 ## MAdapter: A Multimodal Adapter for Liquid State Machines configures the Input Layer for the same Reservoir to enable Vision and Speech Classification
 A. Biswas, N. S. Nambiar, K. Kejriwal and U. Ganguly, "MAdapter: A Multimodal Adapter for Liquid State Machines configures the Input Layer for the same Reservoir to enable Vision and Speech Classification," 2023 International Joint Conference on Neural Networks (IJCNN), Gold Coast, Australia, 2023, pp. 1-6, doi: 10.1109/IJCNN54540.2023.10191376.
